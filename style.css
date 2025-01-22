@@ -1,0 +1,80 @@
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.quicksand-bold {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.quicksand-semibold {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.quicksand-medium {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+  
+body{
+    margin: 0 141px;
+}
+/*nav style*/
+.title{
+    display: flex;
+    gap: 11px;
+    align-items: center;
+
+   
+}
+.ntitle{
+
+    font-size: 32px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 32px ;
+}
+li{
+    font-size: 20px;
+    font-weight: 500;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btn{
+    color: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 60.5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.banner-title{
+    font-size: 56px;
+}
+.banner-container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.kid{
+    max-width: 117rem;
+    max-height: 143rem;
+}
+.bg{
+    background-image: url(assets/bg.png);
+}
